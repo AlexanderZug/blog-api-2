@@ -7,14 +7,18 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-django = "^5.1.1"
+django = "^5.1.2"
 djangorestframework = "^3.15.2"
-django-cors-headers = "^4.4.0"
+django-cors-headers = "^4.5.0"
 dj-rest-auth = "^6.0.0"
 django-allauth = "^65.0.2"
 requests = "^2.32.3"
 drf-spectacular = "^0.27.2"
-
+environs = "^11.0.0"
+dj-database-url = "^2.2.0"
+whitenoise = "^6.7.0"
+psycopg2 = "^2.9.10"
+gunicorn = "^23.0.0"
 
 [build-system]
 requires = ["poetry-core"]
